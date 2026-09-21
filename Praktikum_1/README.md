@@ -4,18 +4,28 @@
 
 ### Hotkeys
 <kbd>Strg</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> - Öffnet ein Terminal
+
 <kbd>Strg</kbd> + <kbd>C</kbd> - bricht Prozess ab
+
 <kbd>Strg</kbd> + <kbd>D</kbd> - schließt das Terminal
 
 ### Befehle
 `pwd`   - print working directory
+
 `ls`    - list
+
 `cd`    - change directory
+
 `mkdir` - make directory
+
 `touch` - make empty file
+
 `rm`    - remove
+
 `mv`    - move
+
 `cp`    - copy
+
 `man`   - manual
 
 ## eine Pythondatei ausführen
