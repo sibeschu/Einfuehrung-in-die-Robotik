@@ -21,7 +21,7 @@ Lege im Ordner "Praktikum_1" für jede Aufgabe eine eigene Pythondatei an. Zum B
 [Linux command line for beginners (ubuntu.com)](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)
 
 ## Aufgabe 2 - Hallo Welt!
-- Wechsle (`cd`) in das Verzeichnis /Einfuehrung_Robotik/Praktikum_1 und lege eine Datei an mit dem Namen `aufgabe_hello.py` ( `touch {Dateiname}` )
+- Wechsle (`cd`) in das Verzeichnis /Einfuehrung_Robotik/Praktikum_1 und lege eine Datei an mit dem Namen `aufgabe_hello.py` (Befehl `touch {Dateiname}` )
 - Öffne die Datei mit VS Code ( `code {Dateiname}` )
 - Schreibe `print("Hello python!")` in die Datei und speichere sie
 - Führe nun die Datei aus indem du im Terminal `python3 aufgabe_2.py` eingibst
@@ -52,7 +52,7 @@ $ K_0 = 1000.00, n = 5, p = −2.0 \quad => K_5 = 903.92 $
 $ax^2 + bx + c = 0$
 
  Nullstellen über:
-$x_1,_2 = \frac{-b \; \pm \; \sqrt{b^2 - 4ac} }{2a}$
+$x_1,_2 = \frac{-b \ \pm \ \sqrt{b^2 - 4ac} }{2a}$
 
 
 - Erstelle eine Datei `aufgabe_quad.py`
@@ -75,7 +75,7 @@ $x_1,_2 = \frac{-b \; \pm \; \sqrt{b^2 - 4ac} }{2a}$
 - Gib nun über die print()-Funktion "Kopf" aus wenn die Zahl gerade ist und "Zahl" wenn sie ungerade ist.
 
 ## Aufgabe 8 - Definition mathematische Funktion
-$$ 
+<!-- $$ 
 v = \left\{
 \begin{array}{l}
 100, \qquad \qquad t < 0\\
@@ -83,6 +83,14 @@ v = \left\{
 0, \qquad \qquad \quad sonst.
 \end{array}
 \right.
+$$ -->
+
+$$
+v = \begin{cases}
+100, & t<0 \\
+100-5t, & 0 \leq t \lt 2 \\
+0, & sonst.
+\end{cases}
 $$
 
 - Erstelle eine Datei mit dem Namen `aufgabe_mathedef.py`
