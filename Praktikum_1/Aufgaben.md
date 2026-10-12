@@ -14,7 +14,7 @@ Lege im Ordner "Praktikum_1" für jede Aufgabe eine eigene Pythondatei an. Zum B
 - Prüfe ob der Ordner angelegt wurde indem du mit `ls` das aktuelle Verzeichnis auflisten lässt.
 #### Teilaufgabe 1.4
 <kbd>Tab</kbd><kbd>Tab</kbd> ist die automatische Vervollständigung im Terminal, probiere sie bei dieser Aufgabe aus, indem du nach den ersten zwei Buchstaben des Ordnernamens <kbd>Tab</kbd><kbd>Tab</kbd> drückst.
-- Wechsle vom $HOME-Verzeichnis in den frisch angelegten Ordner indem du den Befehl `cd {Ordnername}` nutzt.
+- Wechsle vom {$HOME}-Verzeichnis in den frisch angelegten Ordner indem du den Befehl `cd {Ordnername}` nutzt.
 #### Teilaufgabe 1.5
 - Nutze nun den Befehl `git clone https://github.com/sibeschu/Einfuehrung-in-die-Robotik` um den Praktikumsordner von Github in dein Verzeichnis zu kopieren. 
 
@@ -86,6 +86,13 @@ v = \left\{
 \end{array}
 \right.
 $$ -->
+
+Mithilfe einer mathematischen Funktion sollen die Messwerte eines Temperatursensors abgebildet werden, um eine Heizungsanlage zu regeln. 
+
+$t - Temperaturmesswert$
+$v - Reglerwert$
+
+Falls t kleiner als 0° ist, beträgt v = 100, zwischen 0° und 20° ist v = 100 - 5t und ab 20° ist v = 0.
 
 $$
 v = \begin{cases}
