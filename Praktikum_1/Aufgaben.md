@@ -90,6 +90,7 @@ $$ -->
 Mithilfe einer mathematischen Funktion sollen die Messwerte eines Temperatursensors abgebildet werden, um eine Heizungsanlage zu regeln. 
 
 $t - Temperaturmesswert$
+
 $v - Reglerwert$
 
 Falls t kleiner als 0° ist, beträgt v = 100, zwischen 0° und 20° ist v = 100 - 5t und ab 20° ist v = 0.
@@ -97,7 +98,7 @@ Falls t kleiner als 0° ist, beträgt v = 100, zwischen 0° und 20° ist v = 100
 $$
 v = \begin{cases}
 100, & t<0 \\
-100-5t, & 0 \leq t \lt 2 \\
+100-5t, & 0 \leq t \lt 20 \\
 0, & sonst.
 \end{cases}
 $$
