@@ -1,7 +1,6 @@
 # Aufgaben Praktikum 1 - Python
-Lege im Ordner "Praktikum_1" für jede Aufgabe eine eigene Pythondatei an. Zum Beispiel `aufgabe_1.py` für die Aufgabe 1.
 
-## Aufgabe 1 - Datei anlegen
+## Aufgabe 1 - Ordner anlegen und klonen
 - Öffne das Terminal mit <kbd>Strg</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>. 
 - Du solltest nun eine Prompt sehen die sich so zusammensetzt: `Nutzername` `@` `Computername` `:` `Ordner/Verzeichnis` `$`. 
 ( ~/Tilde ist dabei das /home/Nutzer/ Verzeichnis )
@@ -20,29 +19,31 @@ Lege im Ordner "Praktikum_1" für jede Aufgabe eine eigene Pythondatei an. Zum B
 
 [Linux command line for beginners (ubuntu.com)](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)
 
-## Aufgabe 2 - Hallo Welt!
+## Aufgabe 2 - Datei anlegen und Hallo Welt!
 - Wechsle (`cd`) in das Verzeichnis /Einfuehrung_Robotik/Praktikum_1 und lege eine Datei an mit dem Namen `aufgabe_hello.py` (Befehl `touch {Dateiname}` )
 - Öffne die Datei mit VS Code ( `code {Dateiname}` )
 - Schreibe `print("Hello python!")` in die Datei und speichere sie
-- Führe nun die Datei aus indem du im Terminal `python3 aufgabe_2.py` eingibst
+- Führe nun die Datei aus indem du im Terminal `python3 aufgabe_hello.py` eingibst
 
 ## Aufgabe 3 - "Hallo Welt"-String
 - Lege eine Variable an, die den String "Hello" enthält.
 - Lege eine Variable an, die den String "World!" enthält.
-- Nutze die Printfunktion um mithilfe der Variablen "Hello World!" auszugeben.
+- Nutze die Printfunktion um mithilfe der Variablen "Hello World!" auszugeben. (Addition von Stringvariablen)
 
 ## Aufgabe 4 - Zinssatz
 $K_n = K_0 ( 1 + \frac{p}{100})^n$
 
 $K_0$ - aktuelles Anfangskapital in Euro
+
 $p$ - Zinssatz in %
+
 $n$ - Anzahl der Jahre
 
 
 - Lege eine Datei `aufgabe_zins.py`an
-- Schreibe ein Programm, welches das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Input nimmt und das Endkapital ausgibt.
+- Schreibe ein Programm, welches das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Input nimmt und das Endkapital, auf zwei Nachkommastellen [gerundet](https://pythonguides.com/python-print-2-decimal-places/), ausgibt.
 - für die Eingabe von Variablen verwende `Variable_a = input()`
-- für das Potenzieren kann die Funktion Math.pow(a, b) aus dem Modul `math`benutzt werden.
+- für das Potenzieren kann die Funktion [Math.pow(a, b)](https://www.w3schools.com/python/ref_math_pow.asp) aus dem Modul `math`benutzt werden.
 
 _Testbeispiele:_
 
@@ -73,7 +74,7 @@ $x_1,_2 = \frac{-b \ \pm \ \sqrt{b^2 - 4ac} }{2a}$
 - Du kannst die Datei `aufgabe_modulo.py` weiterverwenden
 - Importiere am Beginn deiner Datei das Modul mit dem Namen "random".
 - Recherchiere online, wie man die Funktion randint() vom Modul "random" nutzt. 
-- Schreibe mit der Funktion randint() eine zufällige Zahl in eine Variable. Die Zahl soll dabei nur 1 oder 2 betragen.
+- Schreibe mit der Funktion [randint()](https://www.w3schools.com/python/ref_random_randint.asp) eine zufällige Zahl in eine Variable. Die Zahl soll dabei nur 1 oder 2 betragen.
 - Gib nun über die print()-Funktion "Kopf" aus wenn die Zahl gerade ist und "Zahl" wenn sie ungerade ist.
 
 ## Aufgabe 8 - Definition mathematische Funktion
@@ -86,6 +87,7 @@ v = \left\{
 \end{array}
 \right.
 $$ -->
+Lege eine Datei an. `aufgabe_funk.py`
 
 Mithilfe einer mathematischen Funktion sollen die Messwerte eines Temperatursensors abgebildet werden, um eine Heizungsanlage zu regeln. 
 

@@ -8,6 +8,7 @@ In den einzelnen Unterordnern findet ihr die entsprechenden Dokumentationen und 
 ```bash
 Einfuehrung-in-die-Robotik
 ├── Praktikum_1
+│   └── Aufgaben.md
 │   └── README.md
 ├── Praktikum_2
 │   └── README.md
