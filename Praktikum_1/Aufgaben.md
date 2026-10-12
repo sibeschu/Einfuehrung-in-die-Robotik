@@ -45,6 +45,7 @@ $n$ - Anzahl der Jahre
 - für das Potenzieren kann die Funktion Math.pow(a, b) aus dem Modul `math`benutzt werden.
 
 _Testbeispiele:_
+
 $K_0 = 1000.00, n = 5, p = 2.0 \qquad => K_5 = 1104.08$
 
 $K_0 = 1000.00, n = 5, p = −2.0 \qquad => K_5 = 903.92$
